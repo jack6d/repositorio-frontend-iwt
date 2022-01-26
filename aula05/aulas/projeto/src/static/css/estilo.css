@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.img-carrossel{
+    height: 400px;
+    object-fit: cover;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cartao img{
+    width:100%;
+    height:auto;
+}
+
+.img-cartao{
+    display: block;
+    margin: 5px auto;
+    width:80%;
+    height:60%;
+    object-fit: cover;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>
+                Nome:
+                <input type="text" name="" placeholder="Digite seu nome" size='20' maxlength="20" id="nome_id" required>
+            </label>
+            <br/>
+            <br/>
+            <label>
+                sexo: <br>
+                Masculino<input type="radio" name="sexo" id="">
+            </label>    
+            <label>    
+                Feminino <input type="radio" name="sexo" id="" checked>
+            </label>
+            <br><br>
+            <label>
+                Idade:
+                <input type="number" min='1' max='150' name="" id="">
+            </label>
+            <br/><br/>
+            <label>
+                Data de nascimento
+                <input type="date" name="" id="datanascimento">
+            </label>
+            <br><br>
+            <label>
+                E-mail:
+                <input type="email" name="" id="">
+            </label>
+            <br/>
+            <br/>
+            <label>
+                Senha:
+                <input type="password" name="" id="">
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Informações profissionais</legend>
+            <label>
+                Function:
+                <select name="function" id="funcao_id">
+                    <optgroup label="programação">
+                        <option value="#" selected disabled>Selecione</option>
+                        <option value="frontend">frontend</option>
+                        <option value="backend">backend</option>
+                        <option value="fullstack">fullstack</option>
+                        <option value="devops">DevOps</option>
+                    </optgroup>
+                    <optgroup label="administração">
+                        <option value="">gerente</option>
+                        <option value="">supervisor</option>
+                        <option value="">ceo</option>
+                    </optgroup>
+                </select>
+            </label>
+            <br>
+            <label>
+                nivel: <br>
+                Junior<input type="radio" name="nivel" id="">
+            </label>
+            <label>    
+                Pleno<input type="radio" name="nivel" id="">
+            </label>
+            <label>    
+                Sênior<input type="radio" name="nivel" id="" checked>
+            </label>
+            <br>
+            <br>
+            <p>Conhecimentos</p>
+            <label>
+                HTML
+                <input type="checkbox" name="" id="">
+            </label>
+            <label>
+                CSS
+                <input type="checkbox" name="" id="">
+            </label>
+            <label>
+                JavaScript
+                <input type="checkbox" name="" id="">
+            </label>
+            <label>
+                PHP
+                <input type="checkbox" name="" id="">
+            </label>
+            <label>
+                Java
+                <input type="checkbox" name="" id="">
+            </label>
+            <label>
+                MySQL
+                <input type="checkbox" name="" id="">
+            </label>
+            <label>
+                MongoDB
+                <input type="checkbox" name="" id="">
+            </label>
+            <label>
+                Docker
+                <input type="checkbox" name="" id="">
+            </label>
+            <label>
+                GitHub
+                <input type="checkbox" name="" id="">
+            </label>
+            <p>Informações adicionais</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar valores">
+    </form>
+</body>
+</html>

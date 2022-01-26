@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto + Slab & display = swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.cabecalho{
+    padding: 0px;
+    margin-bottom: 50px;
+    background-color: darkblue;
+    color:white;
+}
+
+#logo{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav ul{
+    float: right;
+    margin-top: -30px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right:80px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover{
+    color: crimson;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.titulo p{
+    text-align: center;
+}
+
+p{
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.imagem-principal{
+    width: 800px;
+    display:block;
+    margin: 10px auto;
+    border:5px solid rgb(67, 49, 62);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,1);
+    opacity: 0.9;
+}
+
